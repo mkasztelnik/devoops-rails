@@ -1,5 +1,5 @@
 module Devoops
   module Rails
-    VERSION = "0.1.2"
+    VERSION = "2.0.0.0"
   end
 end

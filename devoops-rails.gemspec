@@ -20,10 +20,10 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency 'railties', '>= 3.2.16'
-  spec.add_dependency 'rails-assets-bootstrap', '3.1.0'
-  spec.add_dependency 'font-awesome-rails', '4.0.3.2'
-  spec.add_dependency 'rails-assets-jquery', '2.1.0'
-  spec.add_dependency 'rails-assets-jquery-ui', '1.10.4'
+  spec.add_dependency 'bootstrap-sass', '~> 3.3'
+  spec.add_dependency 'font-awesome-sass', '~> 4.2'
+  spec.add_dependency 'autoprefixer-rails', '~> 4.0'
+  spec.add_dependency 'jquery-rails', '~> 4.0'
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
